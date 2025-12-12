@@ -1,0 +1,62 @@
+# ------------------------------------
+# 1. DEPENDENCY/PACKAGE DIRECTORIES
+# ------------------------------------
+# Node.js
+/node_modules
+/jspm_packages/
+# Python
+venv/
+.venv/
+/env/
+/bin/
+# PHP (Composer)
+/vendor/
+# Ruby (Bundler)
+/bundle/
+
+# ------------------------------------
+# 2. OPERATING SYSTEM / ENVIRONMENT FILES
+# ------------------------------------
+# macOS - YOUR file of interest!
+**/.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux/Unix
+*~
+# Vim/Nano backup files
+*.swp
+*.bak
+*.swo
+
+# ------------------------------------
+# 3. BUILD OUTPUT / COMPILED ARTIFACTS
+# ------------------------------------
+# Compiled source files (e.g. C/C++, Java)
+*.o
+*.a
+*.so
+*.lo
+*.la
+*.dll
+*.class
+*.exe
+
+# General build directories
+/dist/
+/build/
+/out/
+/target/
+
+# Log and temporary files
+*.log
+*.tmp
+temp/
+tmp/
